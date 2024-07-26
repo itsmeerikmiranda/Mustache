@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\source\\repos\\Mustache\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|c:\\users\\administrador\\source\\repos\\mustache\\mustache\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|solutionrelative:mustache\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|C:\\Users\\Administrador\\source\\repos\\Mustache\\mustache\\mustachefrm\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|solutionrelative:mustache\\mustachefrm\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|C:\\Users\\Administrador\\source\\repos\\Mustache\\mustache\\mustachefrm\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|solutionrelative:mustache\\mustachefrm\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|c:\\users\\administrador\\source\\repos\\mustache\\mustache\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|solutionrelative:mustache\\mustachefrm\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|c:\\users\\administrador\\source\\repos\\mustache\\mustache\\mustachefrm\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|solutionrelative:mustache\\mustachefrm\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|c:\\users\\administrador\\source\\repos\\mustache\\mustache\\mustachefrm\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|solutionrelative:mustache\\mustachefrm\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|c:\\users\\administrador\\source\\repos\\mustache\\mustache\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753F0E22-F14E-4852-A269-353ABCD468DC}|Mustache\\Mustache.csproj|solutionrelative:mustache\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,36 +46,52 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\Cliente.cs",
               "RelativeDocumentMoniker": "Mustache\\Cliente.cs",
               "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\Cliente.cs",
               "RelativeToolTip": "Mustache\\Cliente.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAswEwAAAAJAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAswEEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T20:41:58.403Z",
+              "WhenOpened": "2024-07-15T20:41:58.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\MustacheFrm\\FrmCliente.cs",
+              "RelativeDocumentMoniker": "Mustache\\MustacheFrm\\FrmCliente.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\MustacheFrm\\FrmCliente.cs",
+              "RelativeToolTip": "Mustache\\MustacheFrm\\FrmCliente.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T19:29:10.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FrmCliente.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\MustacheFrm\\FrmCliente.cs",
-              "RelativeDocumentMoniker": "Mustache\\MustacheFrm\\FrmCliente.cs",
-              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\MustacheFrm\\FrmCliente.cs [Projeto]",
-              "RelativeToolTip": "Mustache\\MustacheFrm\\FrmCliente.cs [Projeto]",
+              "Title": "Banco.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\Banco.cs",
+              "RelativeDocumentMoniker": "Mustache\\Banco.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\Banco.cs",
+              "RelativeToolTip": "Mustache\\Banco.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T19:50:03.431Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-07-14T19:12:48.551Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FrmPrincipal.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\MustacheFrm\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "Mustache\\MustacheFrm\\FrmPrincipal.cs",
@@ -87,29 +103,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmCliente.cs",
+              "DocumentIndex": 0,
+              "Title": "FrmCliente.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\MustacheFrm\\FrmCliente.cs",
               "RelativeDocumentMoniker": "Mustache\\MustacheFrm\\FrmCliente.cs",
-              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\MustacheFrm\\FrmCliente.cs",
-              "RelativeToolTip": "Mustache\\MustacheFrm\\FrmCliente.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAIAzwCYAAAAeAAAA",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\MustacheFrm\\FrmCliente.cs [Projeto]",
+              "RelativeToolTip": "Mustache\\MustacheFrm\\FrmCliente.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T19:29:10.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Banco.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\Banco.cs",
-              "RelativeDocumentMoniker": "Mustache\\Banco.cs",
-              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\Banco.cs",
-              "RelativeToolTip": "Mustache\\Banco.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T19:12:48.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T19:50:03.431Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }
