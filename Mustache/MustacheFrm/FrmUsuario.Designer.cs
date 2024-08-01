@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            button1 = new Button();
+            btnEditar = new Button();
             btnInserir = new Button();
             groupbox1 = new GroupBox();
-            txtNivel = new TextBox();
-            label5 = new Label();
-            txtEmail = new TextBox();
-            label4 = new Label();
-            label3 = new Label();
-            label2 = new Label();
-            txtNome = new TextBox();
-            txtCpf = new TextBox();
-            label7 = new Label();
-            txtSenha = new TextBox();
-            label8 = new Label();
             label6 = new Label();
             txtConfirme = new TextBox();
+            txtNivel = new TextBox();
+            txtEmail = new TextBox();
+            label5 = new Label();
+            label3 = new Label();
+            label7 = new Label();
+            label2 = new Label();
+            label8 = new Label();
+            label4 = new Label();
+            txtNome = new TextBox();
+            txtSenha = new TextBox();
+            txtCpf = new TextBox();
             groupbox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -58,19 +58,19 @@
             label1.TabIndex = 10;
             label1.Text = "Usuário";
             // 
-            // button1
+            // btnEditar
             // 
-            button1.BackColor = SystemColors.InfoText;
-            button1.BackgroundImageLayout = ImageLayout.None;
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Century Gothic", 11F);
-            button1.ForeColor = SystemColors.ButtonHighlight;
-            button1.Location = new Point(83, 434);
-            button1.Name = "button1";
-            button1.Size = new Size(67, 30);
-            button1.TabIndex = 7;
-            button1.Text = "&Editar";
-            button1.UseVisualStyleBackColor = false;
+            btnEditar.BackColor = SystemColors.InfoText;
+            btnEditar.BackgroundImageLayout = ImageLayout.None;
+            btnEditar.FlatStyle = FlatStyle.Popup;
+            btnEditar.Font = new Font("Century Gothic", 11F);
+            btnEditar.ForeColor = SystemColors.ButtonHighlight;
+            btnEditar.Location = new Point(83, 434);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(67, 30);
+            btnEditar.TabIndex = 7;
+            btnEditar.Text = "&Editar";
+            btnEditar.UseVisualStyleBackColor = false;
             // 
             // btnInserir
             // 
@@ -85,6 +85,7 @@
             btnInserir.TabIndex = 8;
             btnInserir.Text = "&Inserir";
             btnInserir.UseVisualStyleBackColor = false;
+            btnInserir.Click += btnInserir_Click;
             // 
             // groupbox1
             // 
@@ -109,103 +110,10 @@
             groupbox1.TabStop = false;
             groupbox1.Text = "Cadastro";
             // 
-            // txtNivel
-            // 
-            txtNivel.Location = new Point(181, 118);
-            txtNivel.Name = "txtNivel";
-            txtNivel.Size = new Size(128, 23);
-            txtNivel.TabIndex = 3;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(181, 100);
-            label5.Name = "label5";
-            label5.Size = new Size(34, 15);
-            label5.TabIndex = 5;
-            label5.Text = "Nivel";
-            // 
-            // txtEmail
-            // 
-            txtEmail.BackColor = SystemColors.ControlLightLight;
-            txtEmail.ForeColor = SystemColors.InfoText;
-            txtEmail.Location = new Point(36, 173);
-            txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(273, 23);
-            txtEmail.TabIndex = 3;
-            txtEmail.TextChanged += this.txtEmail_TextChanged;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(36, 100);
-            label4.Name = "label4";
-            label4.Size = new Size(28, 15);
-            label4.TabIndex = 5;
-            label4.Text = "CPF";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(209, -18);
-            label3.Name = "label3";
-            label3.Size = new Size(36, 15);
-            label3.TabIndex = 5;
-            label3.Text = "Email";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(36, 51);
-            label2.Name = "label2";
-            label2.Size = new Size(40, 15);
-            label2.TabIndex = 5;
-            label2.Text = "Nome";
-            // 
-            // txtNome
-            // 
-            txtNome.Location = new Point(36, 69);
-            txtNome.Name = "txtNome";
-            txtNome.Size = new Size(273, 23);
-            txtNome.TabIndex = 1;
-            // 
-            // txtCpf
-            // 
-            txtCpf.Location = new Point(36, 118);
-            txtCpf.Name = "txtCpf";
-            txtCpf.Size = new Size(121, 23);
-            txtCpf.TabIndex = 4;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(36, 155);
-            label7.Name = "label7";
-            label7.Size = new Size(36, 15);
-            label7.TabIndex = 5;
-            label7.Text = "Email";
-            label7.Click += label7_Click;
-            // 
-            // txtSenha
-            // 
-            txtSenha.Location = new Point(36, 226);
-            txtSenha.Name = "txtSenha";
-            txtSenha.Size = new Size(121, 23);
-            txtSenha.TabIndex = 4;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(36, 208);
-            label8.Name = "label8";
-            label8.Size = new Size(39, 15);
-            label8.TabIndex = 5;
-            label8.Text = "Senha";
-            // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(191, 208);
+            label6.Location = new Point(189, 208);
             label6.Name = "label6";
             label6.Size = new Size(101, 15);
             label6.TabIndex = 7;
@@ -218,13 +126,105 @@
             txtConfirme.Size = new Size(121, 23);
             txtConfirme.TabIndex = 6;
             // 
+            // txtNivel
+            // 
+            txtNivel.Location = new Point(181, 118);
+            txtNivel.Name = "txtNivel";
+            txtNivel.Size = new Size(128, 23);
+            txtNivel.TabIndex = 3;
+            // 
+            // txtEmail
+            // 
+            txtEmail.BackColor = SystemColors.ControlLightLight;
+            txtEmail.ForeColor = SystemColors.InfoText;
+            txtEmail.Location = new Point(36, 173);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(273, 23);
+            txtEmail.TabIndex = 3;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(181, 100);
+            label5.Name = "label5";
+            label5.Size = new Size(34, 15);
+            label5.TabIndex = 5;
+            label5.Text = "Nivel";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(209, -18);
+            label3.Name = "label3";
+            label3.Size = new Size(36, 15);
+            label3.TabIndex = 5;
+            label3.Text = "Email";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(36, 155);
+            label7.Name = "label7";
+            label7.Size = new Size(36, 15);
+            label7.TabIndex = 5;
+            label7.Text = "Email";
+            label7.Click += label7_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(36, 51);
+            label2.Name = "label2";
+            label2.Size = new Size(40, 15);
+            label2.TabIndex = 5;
+            label2.Text = "Nome";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(36, 208);
+            label8.Name = "label8";
+            label8.Size = new Size(39, 15);
+            label8.TabIndex = 5;
+            label8.Text = "Senha";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(36, 100);
+            label4.Name = "label4";
+            label4.Size = new Size(28, 15);
+            label4.TabIndex = 5;
+            label4.Text = "CPF";
+            // 
+            // txtNome
+            // 
+            txtNome.Location = new Point(36, 69);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(273, 23);
+            txtNome.TabIndex = 1;
+            // 
+            // txtSenha
+            // 
+            txtSenha.Location = new Point(36, 226);
+            txtSenha.Name = "txtSenha";
+            txtSenha.Size = new Size(121, 23);
+            txtSenha.TabIndex = 4;
+            // 
+            // txtCpf
+            // 
+            txtCpf.Location = new Point(36, 118);
+            txtCpf.Name = "txtCpf";
+            txtCpf.Size = new Size(121, 23);
+            txtCpf.TabIndex = 4;
+            // 
             // FrmUsuario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(630, 522);
             Controls.Add(label1);
-            Controls.Add(button1);
+            Controls.Add(btnEditar);
             Controls.Add(btnInserir);
             Controls.Add(groupbox1);
             Name = "FrmUsuario";
@@ -238,7 +238,7 @@
         #endregion
 
         private Label label1;
-        private Button button1;
+        private Button btnEditar;
         private Button btnInserir;
         private GroupBox groupbox1;
         private TextBox txtNivel;

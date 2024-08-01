@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mustache")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb578ce6c5e014a72b05317b0394c84e843b6cb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6f1b8e76ae04665a6d311e82022f3d3ccf77735")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mustache")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mustache")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

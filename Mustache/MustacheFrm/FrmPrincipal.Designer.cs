@@ -32,6 +32,8 @@
             clienteToolStripMenuItem = new ToolStripMenuItem();
             clienteToolStripMenuItem1 = new ToolStripMenuItem();
             usuárioToolStripMenuItem = new ToolStripMenuItem();
+            categoriaToolStripMenuItem = new ToolStripMenuItem();
+            serviçoToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -40,13 +42,13 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { clienteToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(722, 24);
+            menuStrip1.Size = new Size(1022, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
             // clienteToolStripMenuItem
             // 
-            clienteToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { clienteToolStripMenuItem1, usuárioToolStripMenuItem });
+            clienteToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { clienteToolStripMenuItem1, usuárioToolStripMenuItem, categoriaToolStripMenuItem, serviçoToolStripMenuItem });
             clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
             clienteToolStripMenuItem.Size = new Size(66, 20);
             clienteToolStripMenuItem.Text = "&Cadastro";
@@ -66,16 +68,31 @@
             usuárioToolStripMenuItem.Text = "&Usuário";
             usuárioToolStripMenuItem.Click += usuárioToolStripMenuItem_Click;
             // 
+            // categoriaToolStripMenuItem
+            // 
+            categoriaToolStripMenuItem.Name = "categoriaToolStripMenuItem";
+            categoriaToolStripMenuItem.Size = new Size(180, 22);
+            categoriaToolStripMenuItem.Text = "C&ategoria";
+            categoriaToolStripMenuItem.Click += categoriaToolStripMenuItem_Click;
+            // 
+            // serviçoToolStripMenuItem
+            // 
+            serviçoToolStripMenuItem.Name = "serviçoToolStripMenuItem";
+            serviçoToolStripMenuItem.Size = new Size(180, 22);
+            serviçoToolStripMenuItem.Text = "&Serviço";
+            serviçoToolStripMenuItem.Click += serviçoToolStripMenuItem_Click;
+            // 
             // FrmPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveBorder;
-            ClientSize = new Size(722, 509);
+            ClientSize = new Size(1022, 691);
             Controls.Add(menuStrip1);
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
             Name = "FrmPrincipal";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmPrincipal";
             Load += FrmPrincipal_Load;
             menuStrip1.ResumeLayout(false);
@@ -90,5 +107,7 @@
         private ToolStripMenuItem clienteToolStripMenuItem;
         private ToolStripMenuItem clienteToolStripMenuItem1;
         private ToolStripMenuItem usuárioToolStripMenuItem;
+        private ToolStripMenuItem categoriaToolStripMenuItem;
+        private ToolStripMenuItem serviçoToolStripMenuItem;
     }
 }

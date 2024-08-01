@@ -33,3 +33,5 @@ C:\Users\Administrador\Source\Repos\Mustache\Mustache\obj\Debug\net8.0-windows\M
 C:\Users\Administrador\source\repos\Mustache\Mustache\obj\Debug\net8.0-windows\Mustache.Properties.Resources.resources
 C:\Users\Administrador\source\repos\Mustache\Mustache\obj\Debug\net8.0-windows\Mustache.sourcelink.json
 C:\Users\Administrador\source\repos\Mustache\Mustache\obj\Debug\net8.0-windows\Mustache.MustacheFrm.FrmUsuario.resources
+C:\Users\Administrador\source\repos\Mustache\Mustache\obj\Debug\net8.0-windows\Mustache.MustacheFrm.FrmCategoria.resources
+C:\Users\Administrador\source\repos\Mustache\Mustache\obj\Debug\net8.0-windows\Mustache.MustacheFrm.FrmServico.resources

@@ -48,5 +48,21 @@ namespace Mustache
             frmUsuario.StartPosition = FormStartPosition.CenterScreen;
             frmUsuario.Show();
         }
+
+        private void categoriaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCategoria frmCategoria = new FrmCategoria();
+            frmCategoria.MdiParent = this;
+            frmCategoria.StartPosition = FormStartPosition.CenterScreen;
+            frmCategoria.Show();
+        }
+
+        private void serviçoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmServico frmServico = new FrmServico();
+            frmServico.MdiParent = this;
+            frmServico.StartPosition = FormStartPosition.CenterScreen;
+            frmServico.Show();
+        }
     }
 }
