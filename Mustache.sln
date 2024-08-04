@@ -5,12 +5,6 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mustache", "Mustache\Mustache.csproj", "{753F0E22-F14E-4852-A269-353ABCD468DC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banco", "Banco", "{B3721174-7A17-41DE-B4BE-BA38AEBE9CB5}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\OneDrive - SENAC - SP\UC16 - PJ\Banco\modelo_logicoPJ2.mwb = ..\..\..\OneDrive - SENAC - SP\UC16 - PJ\Banco\modelo_logicoPJ2.mwb
-		..\..\..\OneDrive - SENAC - SP\UC16 - PJ\Banco\scriptBanco.sql = ..\..\..\OneDrive - SENAC - SP\UC16 - PJ\Banco\scriptBanco.sql
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MustacheCs", "MustacheCs", "{0A7378A0-FEA3-43BE-BDB7-CD8158B929B8}"
 EndProject
 Global
@@ -29,7 +23,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{753F0E22-F14E-4852-A269-353ABCD468DC} = {0A7378A0-FEA3-43BE-BDB7-CD8158B929B8}
-		{B3721174-7A17-41DE-B4BE-BA38AEBE9CB5} = {0A7378A0-FEA3-43BE-BDB7-CD8158B929B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44A458E6-EC21-40F3-87A5-6658A606CBE0}
