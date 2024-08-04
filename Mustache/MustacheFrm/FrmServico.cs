@@ -28,7 +28,7 @@ namespace Mustache.MustacheFrm
 
             servico.Inserir();
 
-            if(servico.Id > 0)
+            if (servico.Id > 0)
             {
                 MessageBox.Show($"O serviço {servico.Nome} foi Inserido com sucesso!");
 
@@ -37,7 +37,12 @@ namespace Mustache.MustacheFrm
             {
                 MessageBox.Show($"Serviço não cadastrado. Tente novamente!");
             }
-        
+
+        }
+
+        private void FrmServico_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -64,5 +64,16 @@ namespace Mustache
             frmServico.StartPosition = FormStartPosition.CenterScreen;
             frmServico.Show();
         }
+
+     
+
+        private void nivelToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+            FrmNivel frmNivel = new FrmNivel();
+            frmNivel.MdiParent = this;
+            frmNivel.StartPosition = FormStartPosition.CenterScreen;
+            frmNivel.Show();
+        }
     }
 }

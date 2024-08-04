@@ -23,7 +23,7 @@ namespace Mustache.MustacheFrm
 
             categoria.Inserir();
 
-            if(categoria.Id > 0)
+            if (categoria.Id > 0)
             {
                 MessageBox.Show($"Categoria {categoria.Descricao} inserida com sucesso!");
             }
@@ -31,6 +31,11 @@ namespace Mustache.MustacheFrm
             {
                 MessageBox.Show($"Não foi possivel inserir a categoria");
             }
+        }
+
+        private void FrmCategoria_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
