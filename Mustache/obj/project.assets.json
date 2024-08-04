@@ -1607,19 +1607,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eriks\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eriks\\Source\\Repos\\Mustache\\Mustache\\Mustache.csproj",
+      "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\Mustache.csproj",
       "projectName": "Mustache",
-      "projectPath": "C:\\Users\\eriks\\Source\\Repos\\Mustache\\Mustache\\Mustache.csproj",
-      "packagesPath": "C:\\Users\\eriks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eriks\\Source\\Repos\\Mustache\\Mustache\\obj\\",
+      "projectPath": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\Mustache.csproj",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrador\\source\\repos\\Mustache\\Mustache\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eriks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

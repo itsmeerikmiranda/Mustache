@@ -73,3 +73,4 @@ C:\Users\eriks\Source\Repos\Mustache\Mustache\obj\Debug\net8.0-windows\Mustache.
 C:\Users\eriks\Source\Repos\Mustache\Mustache\obj\Debug\net8.0-windows\Mustache.genruntimeconfig.cache
 C:\Users\eriks\Source\Repos\Mustache\Mustache\obj\Debug\net8.0-windows\ref\Mustache.dll
 C:\Users\eriks\source\repos\Mustache\Mustache\obj\Debug\net8.0-windows\Mustache.MustacheFrm.FrmNivel.resources
+C:\Users\Administrador\source\repos\Mustache\Mustache\obj\Debug\net8.0-windows\Mustache.MustacheFrm.FrmNivel.resources

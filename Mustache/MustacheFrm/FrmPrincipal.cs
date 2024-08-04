@@ -35,10 +35,10 @@ namespace Mustache
 
         private void clienteToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            FrmCliente frmCliente = new FrmCliente();
-            frmCliente.MdiParent = this;
-            frmCliente.StartPosition = FormStartPosition.CenterScreen;
-            frmCliente.Show();
+            FrmCliente frmClienteNovo = new FrmCliente();
+            frmClienteNovo.MdiParent = this;
+            frmClienteNovo.StartPosition = FormStartPosition.CenterScreen;
+            frmClienteNovo.Show();
         }
 
         private void usuárioToolStripMenuItem_Click(object sender, EventArgs e)

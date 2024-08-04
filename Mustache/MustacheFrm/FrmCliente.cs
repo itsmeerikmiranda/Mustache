@@ -17,27 +17,35 @@ namespace Mustache.MustacheFrm
             InitializeComponent();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void tabPage1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
+        private void label13_Click(object sender, EventArgs e)
         {
 
         }
 
         private void btnInserir_Click(object sender, EventArgs e)
         {
-            
             Cliente cliente = new Cliente
-                (
-                    txtNome.Text, txtEmail.Text,
-                    txtCpf.Text, dtpData_nasc.Value, 
-                    txtTelefone.Text
-                );
+            (
+                 txtNome.Text, txtEmail.Text,
+                 txtCpf.Text, dtpData_nasc.Value,
+                 txtTelefone.Text
+            );
 
             cliente.Inserir();
+
+            if(cliente.Id > 0)
+            {
+                MessageBox.Show($"Cliente {cliente.Nome} Foi inserido com sucesso");
+            }
+            else
+            {
+                MessageBox.Show("Cliente não inserido. Tente novamente!");
+            }
         }
     }
 }
